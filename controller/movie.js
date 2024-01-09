@@ -147,8 +147,6 @@ exports.postMovieSearch = (req, res, next) => {
     );
   });
 
-  console.log(122, filteredMovies);
-
   // Kiểm tra xem có phim thỏa mãn hay không
   if (filteredMovies.length === 0) {
     return res.status(200).json({

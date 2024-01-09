@@ -6,20 +6,3 @@ Content-Type: application/json
     "password": "234"
 }
 
-###
-
-GET http://localhost:5000/api/movies/trendingssss
-Authorization: : "Bearer RYoOcWM4JW"
-
-###
-POST http://localhost:5000/api/movies/search
-# Content-Type: application/json
-Authorization: `Bearer RYoOcWM4JW`,
-
-{
-    "genre" : "18",
-    "language" : "en",
-    "mediatype" :"movie",
-    "name" : "minion",
-    "year" : "2022",
-}

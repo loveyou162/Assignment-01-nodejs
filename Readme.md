@@ -20,7 +20,7 @@ XemPhim là một trang web cung cấp dịch vụ xem phim trực tuyến, nơi
 
 ## Cài Đặt Dự Án
 
-1. **Clone Repository**: `git clone https://github.com/your-username/XemPhim-Website.git`
+1. **Clone Repository**: `git clone git@github.com:loveyou162/Assignment-01-nodejs.git`
 2. **Cài Đặt Dependencies**: `npm install`
 3. **Chạy Ứng Dụng**: `npm start`
 4. **Đăng nhập**: tài khoản demo

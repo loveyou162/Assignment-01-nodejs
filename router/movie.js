@@ -14,6 +14,7 @@ router.get("/video", authentication, movieController.getMovieTrailer);
 
 router.post("/search", authentication, movieController.postMovieSearch);
 
+//9. Hàm xác thực
 function authentication(req, res, next) {
   const tokenHeader = req.headers["authorization"];
   console.log(20, tokenHeader);
